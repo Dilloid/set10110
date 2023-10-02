@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://0nlctlbmqhcs"]
+
+[ext_resource type="PackedScene" uid="uid://csy0h2oyaknv5" path="res://Scenes/map_2d.tscn" id="1_oxqqg"]
+[ext_resource type="Script" path="res://Scripts/main.gd" id="1_t3bpi"]
+[ext_resource type="PackedScene" uid="uid://bneff72mksbjk" path="res://Scenes/tile_cursor.tscn" id="3_jgkgj"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_t3bpi")
+
+[node name="Map2D" parent="." instance=ExtResource("1_oxqqg")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)
+
+[node name="TileCursor" parent="." instance=ExtResource("3_jgkgj")]

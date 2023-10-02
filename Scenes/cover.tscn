@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpc12mrnhj6t4"]
+
+[ext_resource type="Script" path="res://Scripts/cover.gd" id="1_3eh3k"]
+[ext_resource type="Texture2D" uid="uid://djxmrpaitryxt" path="res://Sprites/tile_cover.png" id="2_78x35"]
+
+[node name="Cover" type="Node2D"]
+script = ExtResource("1_3eh3k")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_78x35")
