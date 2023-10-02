@@ -1,2 +1,2 @@
-# set10110
-SET10110 Advanced Games Engineering - Tactics AI Godot Project
+# SET10110 Advanced Games Engineering
+## Tactics AI in Godot
