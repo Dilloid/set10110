@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://5npcwfowknqt"]
+
+[ext_resource type="PackedScene" uid="uid://bnbptnsv1rbdt" path="res://enemy.tscn" id="1_u0m6p"]
+
+[node name="Map" type="GridMap"]
+metadata/_editor_floor_ = Vector3(0, -3, 0)
+
+[node name="Enemy" parent="." instance=ExtResource("1_u0m6p")]
