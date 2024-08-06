@@ -3,8 +3,9 @@
 [ext_resource type="Script" path="res://Scripts/cover.gd" id="1_3eh3k"]
 [ext_resource type="Texture2D" uid="uid://djxmrpaitryxt" path="res://Sprites/tile_cover.png" id="2_78x35"]
 
-[node name="Cover" type="Node2D"]
+[node name="Cover" type="Node2D" groups=["covers", "units"]]
 script = ExtResource("1_3eh3k")
+skin = ExtResource("2_78x35")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_78x35")

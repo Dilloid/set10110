@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c45evccqnetm8"]
+
+[ext_resource type="Texture2D" uid="uid://be2jhonjfgo5g" path="res://Sprites/tile_enemy.png" id="1_27147"]
+
+[node name="EnemySpawn" type="Marker2D" groups=["enemy_spawns"]]
+position = Vector2(-72, -72)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_27147")

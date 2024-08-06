@@ -1,10 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://bneff72mksbjk"]
+[gd_scene load_steps=2 format=3 uid="uid://bneff72mksbjk"]
 
 [ext_resource type="Script" path="res://Scripts/tile_cursor.gd" id="1_prn3o"]
-[ext_resource type="Texture2D" uid="uid://b4jhb05ot2fu" path="res://Sprites/tile_cursor.png" id="2_vgsvr"]
 
 [node name="TileCursor" type="Node2D"]
 script = ExtResource("1_prn3o")
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_vgsvr")

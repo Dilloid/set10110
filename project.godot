@@ -12,5 +12,11 @@ config_version=5
 
 config/name="set10110"
 run/main_scene="res://Scenes/main.tscn"
-config/features=PackedStringArray("4.1", "Forward Plus")
+config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/resizable=false

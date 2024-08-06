@@ -1,5 +1,16 @@
-@tool
-extends Unit2D
+extends Entity2D
+
+class_name Unit2D
+
+@export var max_reach: int:
+	set(value):
+		max_reach = value
+
+@export var max_hp: int:
+	set(value):
+		max_hp = value
+
+var turn_no = -1
 
 
 # Called when the node enters the scene tree for the first time.

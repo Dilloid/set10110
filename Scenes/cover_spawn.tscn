@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6aucig4kygq8"]
+
+[ext_resource type="Texture2D" uid="uid://djxmrpaitryxt" path="res://Sprites/tile_cover.png" id="1_87nn4"]
+
+[node name="CoverSpawn" type="Marker2D" groups=["cover_spawns"]]
+position = Vector2(24, -40)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_87nn4")

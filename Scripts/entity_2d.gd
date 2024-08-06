@@ -1,5 +1,14 @@
-@tool
-extends Unit2D
+extends Node2D
+
+class_name Entity2D
+
+@export var skin: Texture:
+	set(value):
+		skin = value
+		if not $Sprite2D:
+			# This will resume execution after this node's _ready()
+			await ready
+		$Sprite2D.texture = value
 
 
 # Called when the node enters the scene tree for the first time.
